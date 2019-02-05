@@ -22,13 +22,13 @@ while (numerito <=5){
 	numerito++;
 }
 
-//exercicio 2
-document.write('<h3>☞ Preparar bocata</h3>');
-var comida = 'Pan con';
-while (comida != 'nada') {
-	document.write(comida+ ' ');
-	comida  = prompt('Que vos apetece comer con pan?');
-}
+// //exercicio 2
+// document.write('<h3>☞ Preparar bocata</h3>');
+// var comida = 'Pan con';
+// while (comida != 'nada') {
+// 	document.write(comida+ ' ');
+// 	comida  = prompt('Que vos apetece comer con pan?');
+// }
 
 
 /*	
@@ -49,8 +49,8 @@ for (var i=0; i<= 10; i++) {
 }
 
 //exercicio 3
-document.write('<h3>☞ Aprender a contar ata 44 de cinco en cinco comezando en 10</h3>');
-for (var i=10; i<= 44; i=i+5) {
+document.write('<h3>☞ Aprender a contar hasta cierto numero de cinco en cinco comezando en 0</h3>');
+for (var i=0; i<= 45; i=i+5) {
 	document.write(i +', ');
 }
 
@@ -61,3 +61,13 @@ for (var i=2; i<= 10; i++) {
 }
 
 
+//A partir de aqui es todo mio
+document.write('<h3> Dias de la semana </h3>')
+var dias =["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+
+var NumeroDias = dias.length -1;
+var i = 0;
+while (i <= NumeroDias) {
+	document.write( dias[i] + "<br>" );
+	i++
+}
