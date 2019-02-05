@@ -1,0 +1,42 @@
+<html lang="gl">
+<head>
+	<meta charset="utf-8">
+	<title>Exemplos</title>
+	<link rel="stylesheet" href="ex9.css">
+	<script type="text/javascript" src="ex9.js"></script>
+</head>
+
+<body>
+	<!-- 	Imaxe corporativa 🤦🏼‍♀️ -->
+	<img src="../logo.png" alt="Algo falla no logo">
+	<h1 id="enlace"> Páxina para modificar o contido do HTML </h1>
+	<button type="button" onclick="FondoAnimado()">Fondo personal</button>
+	<button type="button" onclick="FondoOriginal()">Fondo normal</button>
+	
+	<!-- 	exemplo 1 -->
+
+	<h4 id="enlace2"> ✎ No ficheiro .html fabricamos botóns e un textito ó que lle poñemos un identificador</h4>
+	<p id="textito">Cámbiame de cor premendo nos botóns</p>
+	<button onclick="cambiarCor('blue');">Azul</button>
+	<button onclick="cambiarCor('green');">Vermello</button>
+	<button onclick="cambiarCor('#FF8800');">Naranja</button>
+
+	<!-- 	exemplo 2 -->
+
+	<h4 id="enlace3"> ✎ No ficheiro .html engadimos caixas de texto</h4>	
+	<p>O teu apelido: <input type="text" id="apelido"></p>
+	<p>O teu nome:   <input type="text" id="nome"></p>
+	<button onclick="procesarDatos();">Enviar datos</button>
+	
+	<!-- 	exemplo 3 -->
+
+	<h4> ✎ No ficheiro .html tecleamos un párrafo ó que lle poñemos un identificador</h4>
+	<p id="parrafada" onclick="cambiarTexto()">Este texto vai durar pouco se fas clic nel</p>
+
+	<!-- 	exemplo 4 -->
+
+	<h4> ✎ No ficheiro .js a función mostra a saída de <code>Date()</code> que vén de fábrica predefinida</h4>
+	<p id="hora" onclick="consultarHora()">Fai clic aquí para saber a hora </p>
+
+</body>
+</html>
